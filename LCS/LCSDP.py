@@ -17,5 +17,5 @@ def lcs(a, b, i, j, l):
 if __name__ == "__main__":
     A = input()
     B = input()
-    L = [[-1 for i in range(len(A))] for i in range(len(B))]
+    L = [[-1 for i in range(len(B))] for i in range(len(A))]
     print(lcs(A, B, 0, 0, L))
